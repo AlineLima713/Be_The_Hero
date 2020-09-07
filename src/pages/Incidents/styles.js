@@ -38,14 +38,23 @@ export default StyleSheet.create({
   },
 
   incidentList: {
-    marginTop: 32, 
+    marginTop: 32,
   },
-  
+
   incident: {
     padding: 24,
     borderRadius: 8,
     backgroundColor: '#FFF',
     marginBottom: 16,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+
+    elevation: 3,
   },
 
   incidentProperty: {
