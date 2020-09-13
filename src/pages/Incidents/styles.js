@@ -81,4 +81,9 @@ export default StyleSheet.create({
     fontSize: 15,
     fontWeight: 'bold',
   },
+
+  loading: {
+    marginTop: 30,
+    marginBottom: 30, 
+  }
 });
